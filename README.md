@@ -32,28 +32,20 @@ NumPy
 
 Install dependencies with:
 
-bash
-คัดลอก
-แก้ไข
+
 pip install networkx matplotlib numpy
 Usage
 To run the simulation:
 
-bash
-คัดลอก
-แก้ไข
+
 python comsim.py
 Optional command-line arguments:
 
-css
-คัดลอก
-แก้ไข
+
 python comsim.py [network_size] [connection_prob] [initial_infected] [transmission_prob] [recovery_prob] [num_steps]
 For example:
 
-bash
-คัดลอก
-แก้ไข
+
 python comsim.py 100 0.1 5 0.2 0.1 50
 This means:
 
