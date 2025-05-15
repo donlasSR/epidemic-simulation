@@ -1,6 +1,4 @@
 # epidemic-simulation
-epidemic simulation project
-
 Epidemic Simulation
 This project simulates the spread of an epidemic in a network using probabilistic rules. It models the dynamics of disease transmission across a population represented as a graph.
 
@@ -31,22 +29,16 @@ Matplotlib
 NumPy
 
 Install dependencies with:
-
-
 pip install networkx matplotlib numpy
+
 Usage
 To run the simulation:
-
-
 python comsim.py
 Optional command-line arguments:
-
-
 python comsim.py [network_size] [connection_prob] [initial_infected] [transmission_prob] [recovery_prob] [num_steps]
 For example:
-
-
 python comsim.py 100 0.1 5 0.2 0.1 50
+
 This means:
 
 100 nodes
